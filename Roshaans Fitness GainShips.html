@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROSHAAN's Fitness Gainship</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a1b9a, #8e24aa);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(to right, #6a1b9a, #8e24aa);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #f3e5f5;
+        }
+
+        .supplement-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .supplement-button {
+            display: block;
+            width: 200px;
+            height: 250px;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            box-shadow: 0 0 10px rgba(41, 17, 41, 0.1);
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .supplement-button:hover {
+            transform: scale(1.05);
+        }
+
+        .supplement-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .supplement-info img {
+            max-width: 100%;
+            max-height: 150px;
+            border-radius: 8px;
+        }
+
+        .supplement-info span {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background: linear-gradient(to right, #000000, #ffffff);
+            text-align: center;
+            padding: 20px 0;
+            color: #333;
+        }
+
+        .table-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        .table-container table {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background: white;
+        }
+
+        .table-container th, .table-container td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .table-container th {
+            background: #2575fc;
+            color: white;
+        }
+
+        .table-container td {
+            border-top: 1px solid #ddd;
+        }
+
+        .table-container tr:nth-child(even) td {
+            background: #f9f9f9;
+        }
+
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #1d1c1c;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(172, 171, 171, 0.1);
+            display: none;
+            z-index: 1000;
+            border-radius: 10px;
+            color: #fff;
+        }
+
+        .popup-content {
+            text-align: center;
+        }
+
+        .popup-content h2 {
+            margin-bottom: 20px;
+        }
+
+        #closePopup {
+            background-color: #ff5e62;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #closePopup:hover {
+            background-color: #ff9966;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ROSHAAN's Fitness GainShip</h1>
+    </header>
+    <main>
+        <section id="diet-plan">
+            <h2>Diet Plan to Focus on When Getting Shredded</h2>
+            <p>
+                Everyone of us is looking for effective ways to lose fat and achieve a healthier body. The journey to shredding those unwanted fats begins with making simple yet impactful changes to your diet.<br><br>
+                First and foremost, cut off the sugar from your diet. Excessive sugar intake is a major contributor to weight gain and various health issues. By eliminating sugar, you will not only reduce bad fats but also lower the risk of diseases such as diabetes and heart disease.<br><br>
+                This change will help cut off bad fats and diseases from your body, effectively detoxifying your lifestyle. Embrace natural, whole foods, and focus on balanced nutrition to support your body's metabolism and promote overall wellness. With dedication and the right diet plan, you can transform your body and lead a healthier, more active life.
+            </p>
+        </section>
+        <section id="treadmill-benefits">
+            <h2>Benefits of Doing Treadmill Every Other Day</h2>
+            <p>Discover how doing treadmill exercises every other day can change your life. It helps burn extra belly fat and improves your overall health.</p>
+            <img src="https://hips.hearstapps.com/hmg-prod/images/whm122619-indoorbicycle-workout-b-1597417821.png" height="500" width="500" alt="Treadmill Benefits"><br>
+            <strong><em>If coupled with a good diet and self-care, the treadmill aids in losing belly fat. For instance, running for 30 minutes can help you burn around 200-500 calories (of course, your weight and speed are major factors). On the other hand, fast food burgers contain 250-700 calories. So, plan your workout accordingly!</em></strong> <br>
+        </section>
+        <section id="supplements">
+            <h4>Would You Really Wanna Make It Happen? Here Are the Best Supplements</h4><br>
+            <h3>We Offer You Supplements that Energize and Boost Weight Loss in 3 Weeks</h3><br>
+            <div class="supplement-links">
+                <a href="https://bit.ly/3AfavKu" class="supplement-button">
+                    <div class="supplement-info">
+                        <img src="https://theikariajuice.com/new-home/images/single-product.png?v3" alt="Ikaria Lean Belly Juice">
+                        <span>Ikaria Lean Belly Juice</span>
+                    </div>
+                </a>
+                <a href="https://bit.ly/4cgrYQo" class="supplement-button">
+                    <div class="supplement-info">
+                        <img src="https://leanbodytonic.com/nw-home-b/images/sigle-btl-new.png" alt="Nagano Tonic">
+                        <span>Nagano Tonic</span>
+                    </div>
+                </a>
+                <a href="https://bit.ly/3YpXpEo" class="supplement-button">
+                    <div class="supplement-info">
+                        <img src="https://media.licdn.com/dms/image/C4E03AQH8t-AkA42zeQ/profile-displayphoto-shrink_800_800/0/1646650995806?e=2147483647&v=beta&t=_UZbl74ZFzDva___KVm-bky35fc7k_YyyLm2pIcYCEw" alt="LeanBiome">
+                        <span>LeanBiome</span>
+                    </div>
+                </a>
+                <a href="https://bit.ly/3YxR0Y1" class="supplement-button">
+                    <div class="supplement-info">
+                        <img src="https://go.smoothiediet.com/assets/images/lady.png" alt="Easy-To-Make Smoothies For Rapid Weight Loss">
+                        <span>Smoothies For Rapid Weight Loss</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="supplement-table">
+            <h2>Here Are My Finds for Losing Weight & Gaining Natural Energy</h2>
+            <p>Explore these top supplements designed to help you lose weight, boost energy, and maintain balanced diabetes:</p>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Omega 3 Fatty Acid</th>
+                            <th>Protein / Whey Powder</th>
+                            <th>Green Tea Extraction</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://amzn.to/3yciUht" class="supplement-button">
+                                    <div class="supplement-info">
+                                        <img src="https://m.media-amazon.com/images/I/71-nbuNqwlL._AC_SL1500_.jpg" alt="Nature Made Omega 3 Fish Oil">
+                                        <span>Omega 3 Fish Oil</span>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://amzn.to/3yoGVlo" class="supplement-button">
+                                    <div class="supplement-info">
+                                        <img src="https://m.media-amazon.com/images/I/71yTpMHQH+L._SL1500_.jpg" alt="Protein Powder Smoothie">
+                                        <span>Protein Powder Smoothie</span>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://amzn.to/4dnrVTG" class="supplement-button">
+                                    <div class="supplement-info">
+                                        <img src="https://m.media-amazon.com/images/I/61TQRh9FMjL._AC_SL1000_.jpg" alt="Extra Strength Green Tea 20:1 Extract">
+                                        <span>Extra Strength Green Tea 20:1 Extract</span>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://amzn.to/3YrFVYo" class="supplement-button">
+                                    <div class="supplement-info">
+                                        <img src="https://m.media-amazon.com/images/I/61xpVRj6dOL._AC_SL1500_.jpg" alt="Triple Strength Omega 3 Fish Oil">
+                                        <span>Triple Strength Omega 3 Fish Oil</span>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://amzn.to/4d5vr5t" class="supplement-button">
+                                    <div class="supplement-info">
+                                        <img src="https://m.media-amazon.com/images/I/91w+QqyXvTL._AC_SL1500_.jpg" alt="100% Whey Protein Powder">
+                                        <span>100% Whey Protein Powder</span>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://amzn.to/3SvKOf8" class="supplement-button">
+                                    <div class="supplement-info">
+                                        <img src="https://m.media-amazon.com/images/I/81ZJnap-49L._AC_SL1500_.jpg" alt="Probiotics for Weight Management & Bloating">
+                                        <span>Probiotics for Weight Management & Bloating</span>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>ROSHAAN's Fitness GainShip</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const popup = document.createElement('div');
+            popup.classList.add('popup');
+            popup.innerHTML = `
+                <div class="popup-content">
+                    <h2>Welcome to ROSHAAN's Fitness GainShip</h2>
+                    <button id="closePopup">Close</button>
+                </div>
+            `;
+            document.body.appendChild(popup);
+
+            const closePopup = document.getElementById('closePopup');
+
+            popup.style.display = 'block';
+
+            closePopup.addEventListener('click', () => {
+                popup.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
