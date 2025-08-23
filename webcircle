@@ -1,0 +1,19 @@
+# Web Circle 
+A minimalist blog portal built with HTML, CSS, and vanilla JavaScript.
+It lets you browse, search, open details, and (from the write page) create posts. This was one of my first “ship it anyway” builds—simple, honest, and expandable—now polished for the Swipe Circle collection.
+
+✨ Features
+
+Card grid of posts with author avatar, title, snippet, and date.
+
+Search bar (client-side filtering on title/content/author).
+
+Post details page (clean, distraction-free reading view).
+
+Write form (title/author/content) with client-side validation.
+
+Notifications (small toast style) for actions like post created.
+
+Pagination container (ready to wire when data set grows).
+
+Zero framework: fast to load, easy to understand.
